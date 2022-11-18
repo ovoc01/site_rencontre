@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./asset/info.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <p class="title"><h1>Vos Information</h1></p>
+        <form method="post" action="information">
+            <label  class="form-label">Croyant</label>
+            <select name="croyant" class="form-select" aria-label="Default select example">
+                <option value="true" selected>Oui</option>
+                <option value="false">Non</option>
+              </select>
+            <br>
+            <label  class="form-label">Salaire</label>
+              <div class="input-group  mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">$</span>
+                <input name="salaire" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+            </div>
+            <br>
+
+            <label  class="form-label">Longueur</label>
+              <div class="input-group  mb-3">
+                <input name="longueur" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" required>
+            </div>
+            <br>
+            
+            <label  class="form-label">Diplome</label>
+            <select name="diplome" class="form-select" aria-label="Default select example">
+                <option value="Bacc" selected>Bacc</option>
+                <option value="Bacc+1">Bacc+1</option>
+                <option value="Bacc+2">Bacc+2</option>
+                <option value="Bacc+3">Bacc+3</option>
+                <option value="Bacc+4">Bacc+4</option>
+                <option value="Bacc+5">Bacc+5</option>
+                <option value="Doctorat">Doctorat</option>
+              </select>
+            <br>
+            <label  class="form-label">Genre</label>
+            <select name="genre" class="form-select" aria-label="Default select example">
+                <option value="male">homme</option>
+                <option value="female">Femme</option>
+              </select>
+            <br>
+
+            <label  class="form-label">Nationalite</label>
+            <select name="nationality" class="form-select" aria-label="Default select example">
+                <option value="Madagascar">Madagascar</option>
+                <option value="Autre">Autre</option>
+              </select>
+
+            <br>
+            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+          </form>
+    </div>    
+    </div>
+    <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="../asset/bootstrap/js/jquery.min.js"></script> -->
+    <script src="./asset/js/comment.js"></script>
+</body>
+</html>
